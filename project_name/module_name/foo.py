@@ -6,7 +6,7 @@ def foo():
     
     >>> x = foo()
     >>> x
-    foo
+    'foo'
 
     """
     return "foo"
