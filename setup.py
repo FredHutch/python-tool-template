@@ -55,7 +55,7 @@ opts = dict(name='ProjectName',
             author_email='your_email',
             version='0.1',
             packages= PACKAGES, #this corresponds to the directory-name of the python package you want installed
-            test_packages= [], #this corresponds to the directory-name of any packages that are strictly for tests. will be conditionally installed.
+            test_packages= ['tests'], #this corresponds to the directory-name of any packages that are strictly for tests. will be conditionally installed.
             install_requires= ['os',
                               'pip',
                               'some_esoteric_package' 
